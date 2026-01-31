@@ -15,7 +15,7 @@ def calculate_result(marks):
 
 
 if __name__ == "__main__":
-    marks = [85, 78, 92, 88, 76]  # sample marks
+    marks = list(map(int, input("Enter marks separated by space: ").split()))
     total, average, grade = calculate_result(marks)
 
     print("Total Marks:", total)
